@@ -1,0 +1,45 @@
+.box {
+    float: none;
+    width: 100%;
+}
+
+.box {
+    border-bottom: #dddddd dotted 1px;
+}
+
+#main-info .info-content {
+    float: none;
+    width: 100%;
+}
+
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+    float: none;
+}
+
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: #dddddd dotted 1px;
+}
+
+
+#main-info .info-img{
+    display: none;
+}
+
+
+
+#showcase .showcase-content {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+#testimonials {
+    height: 100%;
+    background: url("../img/national-bank.jpg") no-repeat center center/cover;
+}
