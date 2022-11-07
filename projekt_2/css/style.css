@@ -43,6 +43,8 @@ body{
     max-width: 1100px;
     margin: auto;
     padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
 }
 .text-center{
     text-align: center;
@@ -110,9 +112,11 @@ a{
 
 #about .items{
     display: flex;
+    justify-content: space-between;
     padding: 1rem;
 }
 #about .item{
+    width: 50%;
     text-align: center;
     padding: 1rem;
 }
