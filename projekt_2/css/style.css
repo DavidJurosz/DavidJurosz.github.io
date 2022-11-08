@@ -58,6 +58,7 @@ body{
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .text-center{
     text-align: center;
