@@ -100,6 +100,7 @@ a{
     height: 100vh;
 }
 #showcase .showcase-content{
+    letter-spacing: 0.25rem;
     display: flex;
     color: white;
     flex-direction: column;
