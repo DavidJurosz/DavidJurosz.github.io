@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background: white;
+    background: #E8E8E8;
 
 }
 #logo{
@@ -12,7 +12,7 @@ body{
     font-weight: bold;
 }
 .text-primary{
-    color: #93cb52;
+    color: #52658f;
 }
 .l-heading{
     font-size: 4rem;
@@ -31,13 +31,13 @@ body{
 .btn{
     display: inline-block;
     color: #ffffff;
-    background-color: #93cb52;
+    background-color: #52658f;
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 5px;
 }
 .btn:hover{
-    background-color: darkgreen;
+    background-color: #333A56;
 }
 .container{
     max-width: 1100px;
@@ -66,7 +66,7 @@ a{
 }
 /*navbar*/
 #navbar{
-    background: #333333;
+    background: #0E0B16;
     color: #fff;
     display: flex;
     flex-wrap: wrap;
@@ -90,7 +90,7 @@ a{
     margin: 0.25rem 0.5rem;
 }
 #navbar ul li a:hover{
-    background-color: #39cb52;
+    background-color: #52658f;
     border-radius: 5px;
 }
 /* Showcase */
@@ -121,7 +121,7 @@ a{
     padding: 1rem;
 }
 #about .items .item i{
-    background: #39cb52;
+    background: #333A56;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 50%;
