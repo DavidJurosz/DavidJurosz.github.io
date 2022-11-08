@@ -40,6 +40,18 @@ body{
 .btn:hover{
     background-color: #333A56;
 }
+.source{
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: grey;
+    margin: 10px 20px;
+}
+.source a{
+    color: grey;
+    text-decoration: none;
+}
 .container{
     max-width: 1100px;
     margin: auto;
