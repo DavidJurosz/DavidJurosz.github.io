@@ -8,10 +8,27 @@ body{
     background: #E8E8E8;
 
 }
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background-color:#0E0B16;
+    color: #fff;
+}
+.list{
+    margin: 0.5rem 0;
+    list-style: none;
+}
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444444 dotted 1px;
+}
 #logo{
     font-size: large;
     font-weight: bold;
 }
+
 .text-primary{
     color: #52658f;
 }
@@ -24,6 +41,7 @@ body{
     font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
+    text-align: center;
 }
 .lead{
     font-size: 1.3rem;
@@ -72,6 +90,13 @@ body{
 .py-3{
     padding: 3rem 0;
 }
+
+.p-1{padding: 1.5rem}
+.p-2{padding: 2.5rem}
+.p-3{padding: 3.5rem}
+.m-1{margin: 1.5rem}
+.m-2{margin: 2.5rem}
+.m-3{margin: 3.5rem}
 p{
     margin: 0.75rem 0;
 }
@@ -90,6 +115,7 @@ a{
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    z-index:2;
 }
 #navbar ul{
     display: flex;
@@ -128,7 +154,7 @@ a{
 #about .items{
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    flex: 1;
 }
 #about .item{
     width: 50%;
@@ -136,8 +162,21 @@ a{
     padding: 1rem;
 }
 #about .items .item i{
+    color: black;
     background: #333A56;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 50%;
 }
+#project{
+    display: flex;
+}
+#project div{
+    flex:1;
+}
+#project .project-img{
+    background: url("../img/patrick-pahlke-Y1sEIC0PxnU-unsplash3.jpg")no-repeat;
+
+}
+
+
