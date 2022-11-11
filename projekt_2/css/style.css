@@ -124,6 +124,7 @@ a{
 }
 #navbar a{
     color: #fff;
+    margin-left: 1.5vh;
 }
 #navbar ul li a{
     padding: 0.25rem 1rem;
