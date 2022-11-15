@@ -16,6 +16,9 @@ body{
     background-color:#0E0B16;
     color: #fff;
 }
+.bg-primary{
+    background-color: #52658f;
+}
 .list{
     margin: 0.5rem 0;
     list-style: none;
@@ -185,3 +188,35 @@ a{
 }
 
 
+/*Section images*/
+#images .items{
+    display: flex;
+    justify-content: space-between;
+}
+#images .items img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+/*Section contact */
+#contact{
+    display: flex;
+}
+#contact div{
+    flex: 1;
+}
+#contact .contact-form .form-group{
+    margin: 0.75rem;
+}
+#contact .contact-form label{
+    display: block;
+}
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+#contact h3{
+    margin-top: 2rem;
+}
