@@ -134,6 +134,10 @@ a{
     background-color: #52658f;
     border-radius: 5px;
 }
+#navbar ul li a.active{
+    background-color: #52658f;
+    border-radius: 5px;
+}
 /* Showcase */
 #showcase {
     background: #333 url("../img/tech-daily-ztYmIQecyH4-unsplash.jpg") center center/cover;
