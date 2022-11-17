@@ -198,7 +198,9 @@ a{
     margin: auto;
     width: 80%;
 }
-
+.images{
+    width: 200px;
+}
 /*Section contact */
 #contact{
     display: flex;
