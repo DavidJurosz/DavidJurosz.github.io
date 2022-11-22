@@ -279,3 +279,8 @@ a{
 .button-56:hover {
     outline: 0;
 }
+
+#main-footer{
+    display: flex;
+    height: 400px;
+}
