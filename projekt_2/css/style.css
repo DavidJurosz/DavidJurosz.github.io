@@ -250,7 +250,7 @@ a{
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-                                                   }
+}
 
 .button-56:after {
     background-color: white;
