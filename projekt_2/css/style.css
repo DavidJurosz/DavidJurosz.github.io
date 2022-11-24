@@ -120,6 +120,10 @@ a{
     top: 0;
     z-index:2;
 }
+#navbar #hambac {
+    display: none;
+}
+
 #navbar ul{
     display: flex;
     list-style: none;
