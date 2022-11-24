@@ -34,6 +34,10 @@
         padding: 0.5rem;
         border-bottom: #f4f4f4 1px dotted;
     }
+    #navbar ul li:first-child{
+        margin-top: 0.8rem;
+        border-top: #f4f4f4 1px dotted;
+    }
     #navbar #logo {
         margin-bottom: 1.3rem;
         text-align: center;
