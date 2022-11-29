@@ -15,34 +15,43 @@
         <li><a href="#" class="active">Rozšířené vyhledávání</a></li>
     </ul>
 </nav>
-<main id="showcase">
-    <div class="title"><h1>Google Search</h1></div>
-    <p>Rozšířené vyhledávání</p>
-    <div class="subtitle">
-        <p>Najit stránky s...</p>
+<main>
+    <div class="showcase-content">
+        <div class="title">
+            <h1>Google Search</h1>
+            <p>Rozšířené vyhledávání</p>
+        </div>
+        <div class="subtitle">
+            <p>Najit stránky s...</p>
+        </div>
+        <form action="https://www.google.com/search" name="f">
+            <div class="search-box text">
+                <p>všechna tato slova:</p>
+                <input type="text" name="as_q" autocomplete="off" autocorrect="off" autocapitalize="off"
+                       spellcheck="false">
+            </div>
+            <div class="search-box text">
+                <p>přesně toto slovo nebo sousloví:</p>
+                <input type="text" name="as_epq" autocomplete="off" autocorrect="off" autocapitalize="off"
+                       spellcheck="false">
+            </div>
+            <div class="search-box text">
+                <p>kterékoliv z těchto slov:</p>
+                <input type="text" name="as_oq" autocomplete="off" autocorrect="off" autocapitalize="off"
+                       spellcheck="false">
+            </div>
+            <div class="search-box text">
+                <p>žádné z těchto slov:</p>
+                <input type="text" name="as_eq" autocomplete="off" autocorrect="off" autocapitalize="off"
+                       spellcheck="false">
+            </div>
+            <div class="buttons">
+                <input type="submit" value="Rozšířené vyhledávání" name="btnK">
+            </div>
+        </form>
     </div>
-    <form action="https://www.google.com/search" name="f">
-        <div class="search-box text">
-            <p>všechna tato slova:</p>
-            <input type="text" name="as_q" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-        </div>
-        <div class="search-box text">
-            <p>přesně toto slovo nebo sousloví:</p>
-            <input type="text" name="as_epq" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-        </div>
-        <div class="search-box text">
-            <p>kterékoliv z těchto slov:</p>
-            <input type="text" name="as_oq" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-        </div>
-        <div class="search-box text">
-            <p>žádné z těchto slov:</p>
-            <input type="text" name="as_eq" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-        </div>
-        <div class="buttons">
-            <input type="submit" value="Rozšířené vyhledávání" name="btnK">
-        </div>
-    </form>
 </main>
+<!--
 <footer id="main-footer">
     <div class="footer-icons">
         <a href="https://about.google/?utm_source=google-CZ&utm_medium=referral&utm_campaign=hp-footer&fg=1">O společnosti google</a>
@@ -55,5 +64,6 @@
     </div>
     
 </footer>
+-->
 </body>
 </html>
