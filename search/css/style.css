@@ -153,6 +153,39 @@ main .showcase-content .subtitle {
     margin-top: 5%;
     font-size: 1.5em;
 }
-#main-footer{
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #171717;
+    width: 100%;
+
+}
+footer .locate{
+    padding: 20px 10px;
+    margin: 0 1rem;
+    color: white;
+    border-bottom: lightgrey 1px solid;
+}
+footer .footer-items{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .links{
+    display: flex;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+footer .links a{
+    color: darkgrey;
+    margin: 1rem 1.5rem;
+
+}
+footer .links a:hover{
+    color: white;
+    transition: 0.5s;
 }
