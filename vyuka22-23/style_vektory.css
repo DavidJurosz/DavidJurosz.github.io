@@ -1,0 +1,89 @@
+body{
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #0E0B16;
+}
+nav h1.nadpis{
+    color: white;
+    margin-left: 1rem ;
+    padding: 1rem;
+    border-bottom: #333A56 5px solid;
+
+}
+main .obsah{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333A56;
+    color: white;
+}
+main .obsah h2 {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 0;
+}
+main .obsah ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+main .obsah ul li{
+    margin: 0 1rem;
+    padding: 1rem;
+}
+main #main-calculate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+main #main-calculate h3{
+    padding: 1rem;
+    border-bottom: #0E0B16 5px solid;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+main #main-calculate form{
+    padding: 1rem;
+    border: #0E0B16 5px solid;
+    border-radius: 10px;
+    background: #333A56;
+    color: white;
+}
+main #main-calculate form .main-text{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+    border-top: #52658f 3px solid;
+}
+main #main-calculate form .input-value{
+    border-radius: 16px;
+    padding: 8px;
+    margin: 5px;
+}
+main #main-calculate form input:hover{
+    border: #52658f 1px solid;
+}
+main #main-calculate form .btn{
+    margin: 0.5rem;
+    padding: 1rem 4rem;
+    border-radius: 1rem;
+    border: #0E0B16 2px solid;
+    background: #52658f;
+    color: white;
+    font-size: medium;
+
+}
+main #main-calculate form .btn:hover{
+    background: #333A56;
+    border: #52658f 2px solid;
+    transition: 0.5s;
+}
