@@ -16,26 +16,36 @@ nav h1.nadpis{
     border-bottom: #333A56 5px solid;
 
 }
-main .obsah{
+main #obsah{
     display: flex;
     justify-content: space-between;
     background-color: #333A56;
     color: white;
 }
-main .obsah h2 {
+main #obsah h2 {
     display: flex;
     align-items: center;
     margin: 1rem;
     padding: 0;
 }
-main .obsah ul{
+main #obsah ul{
     list-style: none;
     display: flex;
     align-items: center;
 }
-main .obsah ul li{
+main #obsah ul li{
     margin: 0 1rem;
     padding: 1rem;
+}
+main #obsah ul li a{
+    text-decoration: none;
+    padding: 1rem 0;
+    color: white;
+    transition: 0.5s;
+}
+main #obsah ul li a:hover{
+    border-bottom: #0E0B16 5px solid;
+    background: #52658f;
 }
 main #main-calculate{
     display: flex;
