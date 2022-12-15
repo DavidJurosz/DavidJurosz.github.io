@@ -38,7 +38,7 @@ main #obsah ul li{
 }
 main #obsah ul li a{
     text-decoration: none;
-    padding: 1rem 0;
+    padding: 1rem 0.4rem;
     color: white;
     transition: 0.5s;
 }
@@ -46,11 +46,15 @@ main #obsah ul li a:hover{
     border-bottom: #0E0B16 5px solid;
     background: #52658f;
 }
+main #obsah ul li a.current{
+    border-bottom: #0E0B16 5px solid;
+    background: #52658f;
+}
 main #main-calculate{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1rem;
+    margin: 1rem 0 5rem 0;
 }
 main #main-calculate h3{
     padding: 1rem;
@@ -59,8 +63,8 @@ main #main-calculate h3{
     font-weight: bold;
 }
 
-main #main-calculate form{
-    padding: 1rem;
+main #main-calculate .box{
+    padding: 2rem;
     border: #0E0B16 5px solid;
     border-radius: 10px;
     background: #333A56;
@@ -81,9 +85,10 @@ main #main-calculate form .input-value{
 main #main-calculate form input:hover{
     border: #52658f 1px solid;
 }
-main #main-calculate form .btn{
-    margin: 0.5rem;
-    padding: 1rem 4rem;
+main #main-calculate form #btn{
+    display: flex;
+    margin: 0.5rem 0;
+    padding: 1rem 2rem;
     border-radius: 1rem;
     border: #0E0B16 2px solid;
     background: #52658f;
@@ -91,7 +96,7 @@ main #main-calculate form .btn{
     font-size: medium;
 
 }
-main #main-calculate form .btn:hover{
+main #main-calculate form #btn:hover{
     background: #333A56;
     border: #52658f 2px solid;
     transition: 0.5s;
