@@ -125,14 +125,3 @@ table, td{
     justify-content: space-evenly;
     margin-bottom: 2rem;
 }
-.footer{
-    border-top: #0E0B16 5px solid;
-    display: flex;
-    justify-content: center;
-    background-color: #333A56;
-    color: white;
-}
-
-.footer p{
-    font-size: large;
-}
