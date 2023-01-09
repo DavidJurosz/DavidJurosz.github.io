@@ -48,10 +48,10 @@ p{
     padding: 10px;
     text-decoration: none;
     border: 2px solid white;
+    transition: 0.3s;
 }
 #tribute-link:hover{
     color: darkred;
     background-color: #ff6242;
     border-radius: 10px;
-    transition: 0.3s;
 }
