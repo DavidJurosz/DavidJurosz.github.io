@@ -9,58 +9,101 @@
 </head>
 <body>
 <nav id="navbar">
-    <header>Inflace</header>
+    <header>INFLACE</header>
     <a class="nav-link" href="#Úvod">Úvod</a>
     <a class="nav-link" href="#Co_je_inflace">Co je inflace</a>
     <a class="nav-link" href="#Prognóza_ČNB">Prognóza ČNB</a>
     <a class="nav-link" href="#Inflační_cíl">Inflační cíl</a>
+    <a class="nav-link" href="#Něco_málo_k_JS">Něco málo k JS</a>
     <a class="nav-link" href="#Reference">Reference</a>
+
 </nav>
 <main id="main-doc">
     <section class="main-section" id="Úvod">
-        <header>Úvod</header>
+        <header class="title">Úvod</header>
         <p>Tato webová stránka je třetím certifikačním projekter FreeCodeCamp. Stránka pomáhá porozumět tématu inflace a
             veškeré informace čerpá z webu ČNB</p>
     </section>
     <section class="main-section" id="Co_je_inflace">
-        <header>Co je inflace</header>
+        <header class="title">Co je inflace</header>
         <p>Inflace je obvykle chápána jako opakovaný růst většiny cen v dané ekonomice. Jde o oslabení reálné hodnoty
             (tj.
             kupní síly) dané měny vůči zboží a službám, které spotřebitel kupuje - je-li v ekonomice přítomna inflace
             spotřebitelských cen, pak na nákup téhož koše zboží a služeb spotřebitel potřebuje čím dál více jednotek
             měny
             dané země.</p>
-        <p>V praxi je inflace v oblasti spotřebitelských cen měřena jako přírůstek tzv. indexu spotřebitelských cen. V
-            ČR inflaci měří Český statistický úřad , na jehož internetových stránkách lze nalézt podrobnosti o jejím
-            měření.</p>
-        <p>Pokles inflace je označován jako dezinflace.</p>
-        <p>Pokud většina cen v ekonomice delší dobu klesá, hovoříme o deflaci.</p>
+        <p>
+        <ul>
+            <li>V praxi je inflace měřena jako přírůstek tzv. indexu spotřebitelských cen</li>
+            <li>V ČR měří Český statistický úřad</li>
+            <li>Na internetových stránkách ČSÚ lze nalézt podrobnosti o měření</li>
+            <li>Pokles je označovám jako dezinformace</li>
+            <li>Pokud ceny v ekonomice klesá, hovoříme o dezinformaci</li>
+        </ul>
+        </p>
     </section>
     <section class="main-section" id="Prognóza_ČNB">
-        <header>Prognóza ČNB</header>
-        <p>Tato prognóza byla zveřejněna 3. 11. 2022 a až na dílčí výjimky je založena na datech dostupných k 21. 10. 2022.</p>
+        <header class="title">Prognóza ČNB</header>
+        <p>Tato prognóza byla zveřejněna 3. 11. 2022 a až na dílčí výjimky je založena na datech dostupných k 21. 10.
+            2022.</p>
         <h2>Celková inflace (%)</h2>
-        <p>Inflace se ve čtvrtém čtvrtletí letošního roku zvýší nad 18 %. Poté začne klesat a na horizontu měnové politiky – v první polovině roku 2024 – se vrátí do blízkosti 2% cíle.</p>
-        <img src="./img/forecast_22_mpr_autumn_inflace.svg" alt="celkova inflace">
+        <p>Inflace se ve čtvrtém čtvrtletí letošního roku zvýší nad 18 %. Poté začne klesat a na horizontu měnové
+            politiky – v první polovině roku 2024 – se vrátí do blízkosti 2% cíle.</p>
+        <div><img src="./img/forecast_22_mpr_autumn_inflace.svg" width="600" height="350" alt="celkova inflace"></div>
         <h2>Měnověpolitická inflace (%)</h2>
         <p>Měnověpolitická inflace se bude na celém výhledu nacházet pod celkovou inflací. </p>
-        <img src="./img/forecast_22_mpr_autumn_mpinflace.svg" alt="menovopoliticka inflace">
+        <div><img src="./img/forecast_22_mpr_autumn_mpinflace.svg" width="600" height="350" alt="menovopoliticka inflace"></div>
         <h2>Hrubý domácí produkt (mzr. změny v %)</h2>
         <p>Ekonomika bude v nadcházejícím období klesat. Ekonomický růst se plně obnoví až v roce 2024.</p>
-        <img src="./img/forecast_22_mpr_autumn_hdp.svg" alt="hruby domaci produkt">
+        <div><img src="./img/forecast_22_mpr_autumn_hdp.svg" width="600" height="350" alt="hruby domaci produkt"></div>
         <h2>Úrokové sazby 3M PRIBOR (%)</h2>
-        <p>S prognózou je konzistentní nejprve nárůst tržních úrokových sazeb následovaný jejich postupným poklesem během příštího roku.</p>
-        <img src="./img/forecast_22_mpr_autumn_sazby.svg" alt="urokove sazby">
+        <p>S prognózou je konzistentní nejprve nárůst tržních úrokových sazeb následovaný jejich postupným poklesem
+            během příštího roku.</p>
+        <div><img src="./img/forecast_22_mpr_autumn_sazby.svg" width="600" height="350" alt="urokove sazby"></div>
         <h2>Měnový kurz (CZK/EUR)</h2>
         <p>Kurz koruny bude v nejbližších čtvrtletích zhruba stabilní.</p>
-        <img src="./img/forecast_22_mpr_autumn_kurz.svg" alt="menovy kurz">
+        <div><img src="./img/forecast_22_mpr_autumn_kurz.svg" width="600" height="350" alt="menovy kurz"></div>
     </section>
     <section class="main-section" id="Inflační_cíl">
-        <header>Inflační cíl</header>
+        <header class="title">Inflační cíl</header>
+        <p>Inflační cíl je základní kotvou měnové politiky ČNB. Přispívá k udržování cenové stability, usměrňuje
+            inflační
+            očekávání a je jedním z předpokladů pro zdravý ekonomický růst. </p>
+        <h2>Cíl ve výší 2 %</h2>
+        <p>Inflační cíl ČNB má od roku 2010 (pdf, 136 kB) podobu meziročního přírůstku indexu spotřebitelských cen ve
+            výši 2 %. Cíl na této úrovni odpovídá praxi centrálních bank vyspělých ekonomik. ČNB pravidelně vyhodnocuje
+            plnění inflačního cíle, přičemž vychází ze statistických dat publikovaných Českým statistickým úřadem, tedy
+            institucí nezávislou na centrální bance. Toto uspořádání zvyšuje důvěryhodnost inflačního cílování.</p>
+        <h2>Toleranční pásmo</h2>
+        <p>Přestože ČNB usiluje o to, aby se inflace nacházela na 2 %, skutečná inflace se od inflačního cíle odchyluje,
+            a to především v důsledku nepředvídatelných šoků, které ekonomiku průběžně zasahují. Ačkoli centrální banka
+            na důsledky těchto šoků reaguje, není možné ani makroekonomicky smysluplné, aby vracela inflaci k cíli
+            okamžitě. Přirozenou kolísavost inflace zachycuje toleranční pásmo o šíři jednoho procentního bodu oběma
+            směry okolo inflačního cíle.</p>
+        <h2>Výjimky z plnění inflačního cíle</h2>
+        <p>K potřebě uplatňovat výjimky z plnění inflačního cíle vede názor, že není ekonomicky optimální reagovat na
+            přímé dopady nárazových změn faktorů mimo vliv centrální banky. Jedná se často o dopady administrativních či
+            regulatorních opatření či o šoky na straně nabídky, které jsou zcela či ve značné míře mimo dosah opatření
+            měnové politiky a snaha centrální banky udržet inflaci na cíli by za těchto okolností vedla k nežádoucím
+            výkyvům ekonomického vývoje a zaměstnanosti. ČNB proto na primární dopady takových šoků nereaguje a tzv. je
+            „výjimkuje“. Systematickou výjimkou, kterou ČNB uplatňuje z plnění inflačního cíle, jsou primární dopady
+            změn nepřímých daní. Inflace očištěná o tyto daňové vlivy je nazývána měnověpolitická inflace.</p>
+    </section>
+    <section class="main-section" id="Něco_málo_k_JS">
+        <header class="title">Něco málo k JS</header>
+        <p>V tomto odstavci je pár příkladů, jak může vypadat kód JavaScriptu. Odstavec je tady jen z důvod, abych splnil jednu z podmínek certifikačního projektu.</p>
+        <code>function greetMe(yourName) { alert("Hello " + yourName); }
+            greetMe("World");</code>
+        <code>var x = 42.</code>
+        <code>let y = 13.</code>
+        <code>if (condition) { statement_1; } else { statement_2; }</code>
+        <code>if ((x = y)) { /* statements here */ }</code>
     </section>
     <section class="main-section" id="Reference">
-        <header>Reference</header>
+        <header class="title">Reference</header>
+        <p>Veškeré informace na stránce převzaty z webové stránky <a href="https://www.cnb.cz/cs/">ČNB</a></p>
     </section>
+
 </main>
 </body>
 </html>
