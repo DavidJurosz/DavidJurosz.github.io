@@ -49,6 +49,7 @@ html, body{
     display: flex;
     justify-content: center;
     font-size: xx-large;
+    padding-bottom: 1rem ;
     font-weight: bold;
     border-bottom: 3px solid #45A29E;
 }
