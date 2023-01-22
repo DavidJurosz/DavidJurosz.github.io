@@ -12,8 +12,99 @@
 </head>
 <body>
 <header id="header">
-    <img src="./img/apple.svg" alt="apple logo" id="header-img">
-    <nav id="nav-bar"></nav>
+    <img src="./img/apple.svg" width="50" alt="apple logo" id="header-img">
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="#produkty" class="nav-link">Produkty</a></li>
+            <li><a href="#video" class="nav-link">Video</a></li>
+            <li><a href="#ceny" class="nav-link">Ceny</a></li>
+        </ul>
+    </nav>
 </header>
+<section id="produkty">
+    <div class="produkty">
+        <div class="icons">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+        </div>
+        <div class="description">
+            <h2>iPhone</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dignissimos dolor harum nobis pariatur
+                perspiciatis tempore voluptatum! Incidunt quia, quidem repellat repellendus reprehenderit similique
+                vel.</p>
+
+        </div>
+    </div>
+    <div class="produkty">
+        <div class="icons">
+            <i class="fa-solid fa-tablet-screen-button"></i>
+        </div>
+        <div class="description">
+            <h2>iPad</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam facere fuga nemo ut? Aperiam cumque
+                dicta, dolor doloribus in iure, laudantium maiores obcaecati perferendis quo similique soluta tenetur
+                voluptatibus.</p>
+        </div>
+    </div>
+    <div class="produkty">
+        <div class="icons">
+            <i class="fa-solid fa-laptop"></i>
+        </div>
+        <div class="description">
+            <h2>MacBook</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequatur dolor dolorum inventore maiores?
+                Ad corporis enim esse, pariatur porro quos reprehenderit saepe soluta voluptas! At doloremque eos
+                facilis veritatis.</p>
+        </div>
+    </div>
+</section>
+<section id="video">
+    <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/v=FT3ODSg1GFE&t=78s?autoplay=1&mute=1">
+    </iframe>
+</section>
+<section id="ceny">
+    <div class="box">
+        <h3>iPhone</h3>
+        <p class="price">$1000</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, nihil?</p>
+        <a class="button-pricing" href="https://www.apple.com/iphone/">Zjisit více</a>
+    </div>
+    <div class="box">
+        <h3>iPad</h3>
+        <p class="price">$970</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quod.</p>
+        <a class="button-pricing" href="https://www.apple.com/ipad/">Zjistit více</a>
+
+    </div>
+    <div class="box">
+        <h3>MacBook</h3>
+        <p class="price">$1500</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, distinctio?</p>
+        <a class="button-pricing" href="https://www.apple.com/mac/">Zjistit více</a>
+
+    </div>
+</section>
+<section id="contact-form">
+    <h2>Chcete odebírat newsletter?</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+                name="email"
+                id="email"
+                type="email"
+                placeholder="Vložte emailovou adresu"
+                required
+        />
+        <input id="submit" type="submit" value="Odebírat" class="btn" />
+    </form>
+</section>
+
+<footer>
+    <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2023, Apple</span>
+</footer>
 </body>
 </html>

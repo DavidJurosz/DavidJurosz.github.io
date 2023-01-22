@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 95px;
+    min-height: 75px;
+    display: flex;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+#header img {
+    border: 1px solid white;
+    background: white;
+    padding: 1rem;
+    border-radius: 75%;
+}
+
+#header ul {
+    display: flex;
+    list-style: none;
+}
+
+#header a {
+    text-decoration: none;
+    color: lightgrey;
+    padding: 3rem;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#header a:hover {
+    color: white;
+}
+#produkty{
+    margin: 10rem 10rem 0 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.produkty{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.produkty .icons{
+    padding-right: 2rem;
+}
+#video {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+#ceny {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.box:hover{
+    background: grey;
+    color: white;
+}
+.button-pricing{
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    transition: 0.3s;
+}
+.button-pricing:hover{
+    color: white;
+    background: black;
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 2rem;
+    gap: 1rem;
+}
+#contact-form .btn{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 1rem 0 0 2rem;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 50px;
+    background: white;
+    transition: 0.3s;
+}
+#contact-form .btn:hover{
+    background: black;
+    color: white;
+}
+#email{
+    padding: 1rem;
+    border-radius: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+
+    background: black;
+    color: white;
+    padding: 3rem 0;
+    
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+footer span{
+    margin-right: 1rem;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
