@@ -4,7 +4,12 @@
     box-sizing: border-box;
     font-family: "Segoe UI", Tahoma, sans-serif;
 }
-
+:root{
+    --maincolor: black;
+    --maincolor2: white;
+    --secondarycolor: lightgrey;
+    --boxcolor: grey;
+}
 #header {
     position: fixed;
     top: 0;
@@ -12,7 +17,7 @@
     height: 95px;
     min-height: 75px;
     display: flex;
-    background: black;
+    background: var(--maincolor);
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
@@ -20,8 +25,8 @@
 }
 
 #header img {
-    border: 1px solid white;
-    background: white;
+    border: 1px solid var(--maincolor2);
+    background: var(--maincolor2);
     padding: 1rem;
     border-radius: 75%;
 }
@@ -33,7 +38,7 @@
 
 #header a {
     text-decoration: none;
-    color: lightgrey;
+    color: var(--secondarycolor);
     padding: 3rem;
     font-size: large;
     font-weight: bold;
@@ -41,7 +46,7 @@
 }
 
 #header a:hover {
-    color: white;
+    color: var(--maincolor2);
 }
 #produkty{
     margin: 10rem 10rem 0 10rem;
@@ -57,16 +62,16 @@
 .produkty .icons{
     padding-right: 2rem;
 }
-#video {
+.video {
     display: flex;
     justify-content: center;
-    padding: 4rem;
+    align-items: center;
+    margin: 2rem;
 }
 #ceny {
     margin-top: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .box {
@@ -76,25 +81,25 @@
     text-align: center;
     padding: 1rem;
     margin: 10px;
-    border: 1px solid #000;
+    border: 1px solid var(--maincolor);
     border-radius: 10px;
     transition: 0.5s;
 }
 .box:hover{
-    background: grey;
-    color: white;
+    background: var(--boxcolor);
+    color: var(--maincolor2);
 }
 .button-pricing{
     text-decoration: none;
     padding: 1rem;
-    border: 1px solid black;
+    border: 1px solid var(--maincolor);
     border-radius: 10px;
-    color: black;
+    color:  var(--maincolor);
     transition: 0.3s;
 }
 .button-pricing:hover{
-    color: white;
-    background: black;
+    color: var(--maincolor2);
+    background: var(--maincolor);
 }
 #contact-form{
     display: flex;
@@ -113,12 +118,12 @@
     font-weight: bold;
     font-size: large;
     border-radius: 50px;
-    background: white;
+    background: var(--maincolor2);
     transition: 0.3s;
 }
 #contact-form .btn:hover{
-    background: black;
-    color: white;
+    background: var(--maincolor);
+    color: var(--maincolor2);
 }
 #email{
     padding: 1rem;
@@ -128,8 +133,8 @@ footer{
     display: flex;
     justify-content: space-between;
 
-    background: black;
-    color: white;
+    background: var(--maincolor);
+    color:  var(--maincolor2);
     padding: 3rem 0;
     
 }
@@ -143,6 +148,23 @@ footer span{
 }
 footer ul li a{
     text-decoration: none;
-    color: white;
+    color:  var(--maincolor2);
     padding: 1rem;
+}
+
+@media (max-width: 650px) {
+    #header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        height: 200px;
+    }
+    #header ul{
+        display: flex;
+        flex-direction: column;
+    }
+    #produkty{
+        padding-top: 3rem;
+    }
 }
