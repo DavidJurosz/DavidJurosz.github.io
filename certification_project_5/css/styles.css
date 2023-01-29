@@ -1,0 +1,110 @@
+:root {
+    --green: #61982f;
+    --light-green: #86c232;
+    --black: #222629;
+    --gray: #474b4f;
+    --light-gray: #6b6e70;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+#navbar {
+    background: var(--black);
+    position: sticky;
+    width: 100%;
+    height: 90px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar ul li {
+    padding: 2rem;
+    transition: 0.3s;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: var(--light-green);
+    font-size: large;
+    font-weight: bold;
+    padding: 2rem;
+
+}
+
+#navbar ul li:hover {
+    background: var(--gray);
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 90px);
+    background: linear-gradient(65deg, var(--gray), var(--light-gray));
+    color: white;
+}
+
+#welcome-section h1 {
+    font-weight: bold;
+    font-size: xxx-large;
+
+}
+#welcome-section p{
+    margin-top: 1rem;
+    font-size: xx-large;
+    color: var(--light-green);
+    font-weight: bold;
+}
+#projects{
+    background: var(--gray);
+    width: 100%;
+    height: 700px;
+    background: var(--black);
+}
+#projects .project-section-header{
+    display: flex;
+    justify-content: center;
+    color: var(--light-green);
+}
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project a{
+    padding: 13rem 10rem;
+    margin: 3rem;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background: linear-gradient(65deg, var(--gray), var(--light-gray));
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+
+}
+.project .to-do-list:hover{
+    background: linear-gradient(65deg, #f44336, white);
+}
+.project .google-search:hover{
+    background: linear-gradient(65deg, #202124, white);
+}
+.project .inflace:hover{
+    background: linear-gradient(65deg, #0e0b16, #52658f);
+}

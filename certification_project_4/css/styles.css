@@ -140,8 +140,8 @@ footer{
 }
 footer ul{
     list-style: none;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 footer span{
     margin-right: 1rem;
@@ -166,5 +166,10 @@ footer ul li a{
     }
     #produkty{
         padding-top: 3rem;
+    }
+    #ceny{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
     }
 }
