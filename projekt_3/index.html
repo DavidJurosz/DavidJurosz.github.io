@@ -3,62 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, initial-scale=1"/>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>my portfolio</title>
-    <script>
-        const items = document.querySelectorAll("#timeline ul li");
-
-        const isInViewport = (el) => {
-            const rect = el.getBoundingClientRect();
-            return (
-                rect.top >= 0 &&
-                rect.left >= 0 &&
-                rect.bottom <=
-                (window.innerHeight || document.documentElement.clientHeight) &&
-                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-            );
-        };
-
-        const run = () =>
-            items.forEach((item) => {
-                if (isInViewport(item)) {
-                    item.classList.add("show");
-                }
-            });
-
-        // Events
-        window.addEventListener("load", run);
-        window.addEventListener("resize", run);
-        window.addEventListener("scroll", run);
-
-    </script>
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title></title>
 </head>
 <body>
 <header id="main-header">
     <div class="container">
-        <h1><i class="fas fa-brain"></i> Moje portfolio</h1>
-        <h3><i class="fas fa-user"></i> David Jurosz</h3>
+        <h1><i class="fas fa-brain"></i> Historie OA a SOŠL Opava</h1>
+        <h3><i class="fas fa-user"></i> Autor: David Jurosz</h3>
     </div>
 </header>
 <section id="timeline">
     <ul>
         <li>
             <div>
-                <h3><i class="fas fa-chevron-right"></i>21. leden 2022: Test 02</h3>
-                <p>tady bude odkaz a malý popis: html css form</p>
+                <h3><i class="fas fa-chevron-right"></i> 1851</h3>
+                <p> zřízena Německá gremiální obchodní škola</p>
             </div>
+        </li>
+        <li>
             <div>
-                <h3><i class="fas fa-chevron-right"></i>21. leden 2022: Test 02</h3>
-                <p>tady bude odkaz a malý popis: html css form</p>
+                <h3><i class="fas fa-chevron-right"></i> 1894</h3>
+                <p> přejmenována na Slezskou obchodní školu</p>
             </div>
+        </li>
+        <li>
             <div>
-                <h3><i class="fas fa-chevron-right"></i>21. leden 2022: Test 02</h3>
-                <p>tady bude odkaz a malý popis: html css form</p>
+                <h3><i class="fas fa-chevron-right"></i> 1912</h3>
+                <p> začalo se vyučovat česky</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> 1920</h3>
+                <p> vznik České obchodní školy</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> Po roce 1945</h3>
+                <p> další názvy školy: hospodářská družstevní, střední ekonomická</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> 1979</h3>
+                <p> dokončena přístavba školy se šesti učebnami</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> 1981</h3>
+                <p> uvedena do provozu tělocvična</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> 1989</h3>
+                <p> postupná modernizace technického vybavení školy</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> 1990</h3>
+                <p> Obchodní akademie a Obchodní škola</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> 1996</h3>
+                <p> Obchodní akademie</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> 2000</h3>
+                <p> Obchodní akademie a Obchodní akademie pro zrakově postiženou mládež</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> 2003</h3>
+                <p> MEIS (Místní evropské informační středisko)</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> 2012</h3>
+                <p> sloučení se školou Střední škola poštovních a logistických služeb, Opava, příspěvková organizace</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> 2012</h3>
+                <p> Obchodní akademie a Střední odborná škola logistická, Opava, příspěvková organizace</p>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3><i class="fas fa-chevron-right"></i> 2020</h3>
+                <p> výročí 100 let</p>
             </div>
         </li>
     </ul>
 </section>
+<script>const items = document.querySelectorAll("#timeline li");
+
+const isInViewport = (el) => {
+    const rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+};
+
+const run = () =>
+    items.forEach((item) => {
+        if (isInViewport(item)) {
+            item.classList.add("show");
+        }
+    });
+
+// Events
+window.addEventListener("load", run);
+window.addEventListener("resize", run);
+window.addEventListener("scroll", run);
+</script>
 </body>
 </html>
