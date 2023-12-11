@@ -292,6 +292,31 @@ a {
     color: #dddddd;
 }
 
+/* Kontakt - stránka */
+#contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333 url("../img/theregisti-WwadnJLxjXM-unsplash.jpg") center center/cover;
+    height: 100vh;
+}
+.contact-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 85vh;
+    width: 65vh;
+    border-radius: 1rem;
+}
+.contact-box h2{
+    margin: 1rem 0;
+}
+.contact-box .formular{
+    display: flex;
+    flex-direction: column;
+}
 @media(max-width: 1100px){
     #sluzby-boxy{
         grid-template-columns: repeat(1, 1fr);

@@ -30,7 +30,41 @@
         </ul>
     </div>
 </nav>
-
+<section id="contact-section">
+    <div class="contact-box">
+        <h2><span class="primary-color">Kontaktní</span> formulář</h2>
+        <div class="formular">
+            <form action="#" method="post" class="my-form">
+                <div>
+                    <label for="jmeno">Jméno:</label>
+                    <input type="text" id="jmeno" name="jmeno" required>
+                </div>
+                <div>
+                    <label for="prijmeni">Příjmení:</label>
+                    <input type="text" id="prijmeni" name="prijmeni" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="telefon">Telefon:</label>
+                    <input type="tel" id="telefon" name="telefon" required>
+                </div>
+                <div>
+                <label for="sluzba">Druh služby:</label>
+                <select id="sluzba" name="sluzba" required>
+                    <option value="" disabled selected>Vyberte druh služby</option>
+                    <option value="videotvorba">Videotvorba</option>
+                    <option value="modering">Modering</option>
+                    <option value="reportaz">Reportáž</option>
+                </select>
+                </div>
+                <input type="submit" value="Odeslat">
+            </form>
+        </div>
+    </div>
+</section>
 <footer id="main-footer">
     <p>Copyright &copy; 2023, David Jurosz - vytvořeno pro závěrečnou maturitní práci</p>
 </footer>
